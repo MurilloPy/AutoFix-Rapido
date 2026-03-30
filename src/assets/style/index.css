@@ -1,0 +1,2043 @@
+/* Reset Geral */
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* Cabeçalho (Header) */
+header{
+
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #214559;
+    position: sticky;
+    top: 0;
+
+}
+
+/* Logotipo ou Texto do Header */
+header p{
+
+    color: #90caf9;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: 'Segoe UI', sans-serif;
+    margin-left: 1%;
+
+}
+
+/* Menu de Navegação */
+header nav{
+
+    margin-right: 3%;
+
+}
+
+/* Lista de Links */
+header nav ul{
+
+    display: flex;
+    gap: 30px;
+
+}
+
+/* Itens da Lista */
+header nav li{
+
+    list-style: none;
+
+}
+
+/* Estilo dos Links */
+header nav a{
+
+    color: #90caf9;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+
+}
+
+/* Seção de Informações (Banner de Destaque) */
+main .section-info{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b2d3a;
+    height: 20vh;
+
+}
+
+/* Título da Seção Info */
+main .section-info h3{
+
+    color: #90caf9;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+/* Texto da Seção Info */
+main .section-info p{
+
+    color: #90caf9;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+
+}
+
+/* Seção Geral de Serviços */
+main .section-services{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: none;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+/* Título de Serviços */
+main .section-services h2{
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+/* Container dos Cards de Serviços */
+main .section-cards{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+/* Cartão Individual de Serviço */
+main .card{
+
+    background-color: #eef1f6;
+    border-radius: 16px;
+    padding: 30px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.13);
+
+}
+
+/* Ícone dentro do Card */
+main .card .icon{
+
+    font-size: 32px;
+    margin-bottom: 15px;
+
+}
+
+/* Título do Card */
+main .card h3{
+
+    color: #183b56;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+/* Texto descritivo do Card */
+main .card p{
+
+    color: #213547;
+
+}
+
+/* Section Principal da Agenda */
+main .section-agenda{
+
+    width: 29%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e3e9f1;
+    border-radius: 10px;
+
+}
+
+/* Título */
+main .agenda h3{
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #1b2d3a;
+    text-align: center;
+
+}
+
+/* Formulário */
+main .agenda form{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* Textos (Labels) */
+main form label{
+
+    width: 488px;
+    margin-bottom: 5px;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    color: #1b2d3a;
+    text-align: left;
+
+}
+
+/* Caixas de Texto (Inputs) */
+main .agenda input[type="text"], 
+main .agenda input[type="tel"] {
+    
+    width: 500px;
+    height: 40px;
+    margin-bottom: 10px;
+    text-indent: 10px;
+    border: 1px solid #214559;
+    border-radius: 8px;
+
+}
+
+/* Efeito ao clicar nas caixas de texto */
+main .agenda input[type="text"]:focus, 
+main .agenda input[type="tel"]:focus {
+    
+    outline: none;
+
+}
+
+/* Botão de Enviar */
+main .agenda form button {
+    
+    width: 90%;
+    height: 60px;
+    margin-top: 20px;
+    background-color: #214559;
+    color: #90caf9;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+/* Container do Catálogo */
+main .section-catalog .catalog{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: -10px;
+
+}
+
+/* Título da Seção Catálogo */
+main .section-catalog h2{
+
+    font-family: Arial, sans-serif;
+    color: #1b2d3a;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+/* Cartão Individual do Item (Antes e Depois) */
+main .div-card-item{
+
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+/* Ajuste das Imagens */
+main .img-wrap img{
+
+    width: 320px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+
+}
+
+/* Subtítulos (Antes / Depois) */
+main .item h3{
+
+    text-align: center;
+    font-size: 18px;
+    color: #1b2d3a;
+    margin-bottom: 8px;
+    font-family: Arial, sans-serif;
+
+}
+
+/* Seção de Depoimentos */
+main .section-depoiment {
+
+    margin: 0 auto;
+    background-color: #214559;
+    color: #90caf9;
+    width: 50%;
+    height: 330px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+/* Título da Seção Depoimentos */
+main .section-depoiment h3 {
+
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+/* Container Interno Depoimentos */
+main .depoiment {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+
+}
+
+/* Bloco de Citação (Depoimento) */
+main blockquote {
+
+    background-color: #1b2d3a;
+    padding: 15px;
+    border-left: 5px solid #90caf9;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+
+/* Estilo do Texto Depoimento */
+main blockquote i {
+
+    font-family: Arial, sans-serif;
+
+}
+
+/* Seção de Mapa */
+main .section-map{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Título do Mapa */
+main .section-map .section-map-title{
+
+    font-family: Arial, sans-serif;
+    color: #1b2d3a;
+    margin-bottom: 30px;
+
+}
+
+/* iframe do Mapa */
+main .section-map iframe{
+
+    width: 900px;
+    padding: 0 20px;
+
+}
+
+/* Horário do Mapa */
+main .section-map .section-map-horario{
+
+    font-family: Arial, sans-serif;
+    color: #1b2d3a;
+    margin-top: 30px;
+
+}
+
+/* Rodapé (Footer) */
+footer{
+
+    background-color: #213547;
+    color: #90caf9;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* Texto do Rodapé */
+footer p{
+
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+
+}
+
+/* Menu de Navegação do Rodapé */
+footer nav{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+/* Estilo dos Links do Rodapé */
+footer a{
+
+    color: #90caf9;
+    text-decoration: none;
+
+}
+
+/* Itens da Lista do Rodapé */
+footer li{
+
+    list-style: none;
+
+}
+
+/* Lista de Links do Rodapé */
+footer ul{
+
+    display: flex;
+    gap: 20px;
+
+}
+
+/* ========================================= */
+        /* Responsividade              */
+/* ========================================= */
+
+/* ------ Max Width 430px ------ */
+@media(max-width: 430px){
+
+    /* Cabeçalho (Header) */
+    header {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        padding: 10px;
+
+    }
+
+    /* Lista de Links do Header */
+    header nav ul {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 10px;
+
+    }
+
+    /* Título da Seção Info */
+    main .section-info h3{
+
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    /* Texto da Seção Info */
+    main .section-info p{
+
+        text-align: center;
+        font-size: 13px;
+
+    }
+    
+    /* Section Principal da Agenda */
+    main .section-agenda{
+
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #e3e9f1;
+        border-radius: 10px;
+
+    }
+
+    /* Título Agenda */
+    main .agenda h3{
+
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-family: Arial, sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        color: #1b2d3a;
+        text-align: center;
+
+    }
+
+    /* Formulário Agenda */
+    main .agenda form{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    /* Textos (Labels) Agenda */
+    main form label{
+
+        width: 260px;
+        margin-bottom: 5px;
+        font-family: Arial, sans-serif;
+        font-weight: 700;
+        color: #1b2d3a;
+        text-align: left;
+
+    }
+
+    /* Caixas de Texto (Inputs) Agenda */
+    main .agenda input[type="text"], 
+    main .agenda input[type="tel"] {
+
+        width: 270px;
+        height: 40px;
+        margin-bottom: 10px;
+        text-indent: 10px;
+        border: 1px solid #214559;
+        border-radius: 8px;
+
+    }
+
+    /* Efeito ao clicar nas caixas de texto */
+    main .agenda input[type="text"]:focus, 
+    main .agenda input[type="tel"]:focus {
+
+        outline: none;
+
+    }
+
+    /* Botão de Enviar Agenda */
+    main .agenda form button {
+
+        width: 90%;
+        height: 60px;
+        margin-top: 20px;
+        background-color: #214559;
+        color: #90caf9;
+        font-size: 18px;
+        font-weight: 700;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+
+    }
+
+    /* Container do Catálogo */
+    main .section-catalog .catalog{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+        width: 100%;
+        margin-bottom: -10px;
+
+    }
+
+    /* Título da Seção Catálogo */
+    main .section-catalog h2{
+
+        font-family: Arial, sans-serif;
+        color: #1b2d3a;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 10px;
+
+    }
+
+    /* Cartão Individual do Item (Antes e Depois) */
+    main .div-card-item{
+
+        background-color: #ffffff;
+        border: 1px solid #e0e0e0;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    /* Ajuste das Imagens */
+    main .img-wrap img{
+
+        width: 320px;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+
+    }
+
+    /* Subtítulos (Antes / Depois) */
+    main .item h3{
+
+        text-align: center;
+        font-size: 18px;
+        color: #1b2d3a;
+        margin-bottom: 8px;
+        font-family: Arial, sans-serif;
+
+    }
+
+    /* Seção de Depoimentos */
+    main .section-depoiment {
+
+        margin: 0 auto;
+        background-color: #214559;
+        color: #90caf9;
+        width: 90%;
+        height: 425px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        border-radius: 30px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+
+    }
+
+    /* Título da Seção Depoimentos */
+    main .section-depoiment h3 {
+
+        font-family: Arial, sans-serif;
+        text-align: center;
+        font-size: 22px;
+
+    }
+
+    /* Container Interno Depoimentos */
+    main .depoiment {
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+
+    }
+
+    /* Bloco de Citação (Depoimento) */
+    main blockquote {
+
+        background-color: #1b2d3a;
+        padding: 15px;
+        border-left: 5px solid #90caf9;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        width: 100%;
+
+    }
+
+    /* Estilo do Texto Depoimento */
+    main blockquote i {
+
+        font-family: Arial, sans-serif;
+
+    }
+
+    /* Seção de Mapa */
+    main .section-map{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    /* Título do Mapa */
+    main .section-map .section-map-title{
+
+        font-family: Arial, sans-serif;
+        color: #1b2d3a;
+        margin-bottom: 30px;
+
+    }
+
+    /* iframe do Mapa */
+    main .section-map iframe{
+
+        /* width: 414px; (Substituído por 100% para evitar overflow) */
+        width: 100%;
+        padding: 0 20px;
+
+    }
+
+    /* Horário do Mapa */
+    main .section-map .section-map-horario{
+
+        font-family: Arial, sans-serif;
+        font-size: 17px;
+        color: #1b2d3a;
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: 10px;
+
+    }
+
+    /* Rodapé (Footer) */
+    footer{
+
+        background-color: #213547;
+        color: #90caf9;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    /* Texto do Rodapé */
+    footer p{
+
+        margin-top: 20px;
+        font-family: Arial, sans-serif;
+        margin-bottom: 10px;
+        text-align: center;
+
+    }
+
+    /* Menu de Navegação do Rodapé */
+    footer nav{
+
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+
+    }
+
+    /* Estilo dos Links do Rodapé */
+    footer a{
+
+        color: #90caf9;
+        text-decoration: none;
+
+    }
+
+    /* Itens da Lista do Rodapé */
+    footer li{
+
+        list-style: none;
+
+    }
+
+    /* Lista de Links do Rodapé */
+    footer ul{
+
+        display: flex;
+        gap: 20px;
+
+    }
+}
+
+/* ------ Max Width 414px ------ */
+@media (max-width: 414px){
+
+    /* Cabeçalho (Header) */
+    header {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        padding: 10px;
+
+    }
+
+    /* Lista de Links do Header */
+    header nav ul {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 10px;
+
+    }
+
+    /* Seção de Informações (Banner de Destaque) */
+    main .section-info{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #1b2d3a;
+        height: 20vh;
+
+    }
+
+    /* Título da Seção Info */
+    main .section-info h3{
+
+        color: #90caf9;
+        font-family: Arial, sans-serif;
+        font-size: 23px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        text-align: center;
+
+    }
+
+    /* Texto da Seção Info */
+    main .section-info p{
+
+        color: #90caf9;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        text-align: center;
+
+    }
+
+    /* Section Principal da Agenda */
+    main .section-agenda{
+
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #e3e9f1;
+        border-radius: 10px;
+
+    }
+
+    /* Título Agenda */
+    main .agenda h3{
+
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-family: Arial, sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        color: #1b2d3a;
+        text-align: center;
+
+    }
+
+    /* Formulário Agenda */
+    main .agenda form{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    /* Textos (Labels) Agenda */
+    main form label{
+
+        width: 260px;
+        margin-bottom: 5px;
+        font-family: Arial, sans-serif;
+        font-weight: 700;
+        color: #1b2d3a;
+        text-align: left;
+
+    }
+
+    /* Caixas de Texto (Inputs) Agenda */
+    main .agenda input[type="text"], 
+    main .agenda input[type="tel"] {
+
+        width: 270px;
+        height: 40px;
+        margin-bottom: 10px;
+        text-indent: 10px;
+        border: 1px solid #214559;
+        border-radius: 8px;
+
+    }
+
+    /* Efeito ao clicar nas caixas de texto */
+    main .agenda input[type="text"]:focus, 
+    main .agenda input[type="tel"]:focus {
+
+        outline: none;
+
+    }
+
+    /* Botão de Enviar Agenda */
+    main .agenda form button {
+
+        width: 90%;
+        height: 60px;
+        margin-top: 20px;
+        background-color: #214559;
+        color: #90caf9;
+        font-size: 18px;
+        font-weight: 700;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+
+    }
+
+    /* Container do Catálogo */
+    main .section-catalog .catalog{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+        width: 100%;
+        margin-bottom: -10px;
+
+    }
+
+    /* Título da Seção Catálogo */
+    main .section-catalog h2{
+
+        font-family: Arial, sans-serif;
+        color: #1b2d3a;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 10px;
+
+    }
+
+    /* Cartão Individual do Item (Antes e Depois) */
+    main .div-card-item{
+
+        background-color: #ffffff;
+        border: 1px solid #e0e0e0;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    /* Ajuste das Imagens */
+    main .img-wrap img{
+
+        width: 320px;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+
+    }
+
+    /* Subtítulos (Antes / Depois) */
+    main .item h3{
+
+        text-align: center;
+        font-size: 18px;
+        color: #1b2d3a;
+        margin-bottom: 8px;
+        font-family: Arial, sans-serif;
+
+    }
+
+    /* Seção de Depoimentos */
+    main .section-depoiment {
+
+        margin: 0 auto;
+        background-color: #214559;
+        color: #90caf9;
+        width: 90%;
+        height: 425px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        border-radius: 30px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+
+    }
+
+    /* Título da Seção Depoimentos */
+    main .section-depoiment h3 {
+
+        font-family: Arial, sans-serif;
+        text-align: center;
+        font-size: 22px;
+
+    }
+
+    /* Container Interno Depoimentos */
+    main .depoiment {
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+
+    }
+
+    /* Bloco de Citação (Depoimento) */
+    main blockquote {
+
+        background-color: #1b2d3a;
+        padding: 15px;
+        border-left: 5px solid #90caf9;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        width: 100%;
+
+    }
+
+    /* Estilo do Texto Depoimento */
+    main blockquote i {
+
+        font-family: Arial, sans-serif;
+
+    }
+
+    /* Seção de Mapa */
+    main .section-map{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    /* Título do Mapa */
+    main .section-map .section-map-title{
+
+        font-family: Arial, sans-serif;
+        color: #1b2d3a;
+        margin-bottom: 30px;
+
+    }
+
+    /* iframe do Mapa */
+    main .section-map iframe{
+
+        /* width: 414px; (Substituído por 100% para evitar overflow)*/
+        width: 100%;
+        padding: 0 20px;
+
+    }
+
+    /* Horário do Mapa */
+    main .section-map .section-map-horario{
+
+        font-family: Arial, sans-serif;
+        font-size: 17px;
+        color: #1b2d3a;
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: 10px;
+
+    }
+
+    /* Rodapé (Footer) */
+    footer{
+
+        background-color: #213547;
+        color: #90caf9;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    /* Texto do Rodapé */
+    footer p{
+
+        margin-top: 20px;
+        font-family: Arial, sans-serif;
+        margin-bottom: 10px;
+        text-align: center;
+
+    }
+
+    /* Menu de Navegação do Rodapé */
+    footer nav{
+
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+
+    }
+
+    /* Estilo dos Links do Rodapé */
+    footer a{
+
+        color: #90caf9;
+        text-decoration: none;
+
+    }
+
+    /* Itens da Lista do Rodapé */
+    footer li{
+
+        list-style: none;
+
+    }
+
+    /* Lista de Links do Rodapé */
+    footer ul{
+
+        display: flex;
+        gap: 20px;
+
+    }
+}
+
+/* ------ Max Width 412px ------ */
+
+
+/* ------ Max Width 390px ------ */
+@media (max-width: 390px){
+
+    /* Cabeçalho (Header) */
+    header{
+
+        width: 100%;
+
+    }
+
+    /* Seção de Informações (Banner de Destaque) */
+    main .section-info{
+
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #1b2d3a;
+        height: 20vh;
+
+    }
+
+    /* Seção Geral de Serviços */
+    main .section-services{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 40px 20px;
+        background-color: none;
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    /* Título de Serviços */
+
+    main .section-services h2{
+
+        margin-top: 20px;
+        margin-bottom: 30px;
+
+    }
+
+    /* Container dos Cards de Serviços */
+    main .section-cards{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+
+    }
+
+    /* Cartão Individual de Serviço */
+    main .card{
+
+        background-color: #eef1f6;
+        border-radius: 16px;
+        padding: 30px;
+        width: 250px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.13);
+
+    }
+
+    /* Ícone dentro do Card */
+    main .card .icon{
+
+        font-size: 32px;
+        margin-bottom: 15px;
+
+    }
+
+    /* Título do Card */
+    main .card h3{
+
+        color: #183b56;
+        margin-bottom: 30px;
+        font-size: 20px;
+        font-weight: 700;
+
+    }
+
+    /* Texto descritivo do Card */
+    main .card p{
+
+        color: #213547;
+
+    }
+
+    /* Rodapé (Footer) */
+    footer{
+
+        background-color: #213547;
+        color: #90caf9;
+        width: 100%;
+        max-width: none;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    /* Texto do Rodapé */
+    footer p{
+
+        margin-top: 20px;
+        font-family: Arial, sans-serif;
+        margin-bottom: 10px;
+
+    }
+
+    /* Menu de Navegação do Rodapé */
+    footer nav{
+
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+
+    }
+
+    /* Estilo dos Links do Rodapé */
+    footer a{
+
+        color: #90caf9;
+        text-decoration: none;
+
+    }
+
+    /* Itens da Lista do Rodapé */
+    footer li{
+
+        list-style: none;
+
+    }
+
+    /* Lista de Links do Rodapé */
+    footer ul{
+
+        display: flex;
+        gap: 20px;
+
+    }
+}
+
+/* ------ Max Width 375px ------ */
+@media (max-width: 375px){
+
+    /* Cabeçalho (Header) */
+    header {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        padding: 10px;
+
+    }
+
+    /* Lista de Links do Header */
+    header nav ul {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 10px;
+
+    }
+
+    /* Título da Seção Info */
+    main .section-info h3{
+
+        font-size: 22px;
+        text-align: center;
+
+    }
+
+    /* Texto da Seção Info */
+    main .section-info p{
+
+        text-align: center;
+        font-size: 15px;
+
+    }
+
+    /* Section Principal da Agenda */
+    main .section-agenda{
+
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #e3e9f1;
+        border-radius: 10px;
+
+    }
+
+    /* Título Agenda */
+    main .agenda h3{
+
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-family: Arial, sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        color: #1b2d3a;
+        text-align: center;
+
+    }
+
+    /* Formulário Agenda */
+    main .agenda form{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    /* Textos (Labels) Agenda */
+    main form label{
+
+        width: 260px;
+        margin-bottom: 5px;
+        font-family: Arial, sans-serif;
+        font-weight: 700;
+        color: #1b2d3a;
+        text-align: left;
+
+    }
+
+    /* Caixas de Texto (Inputs) Agenda */
+    main .agenda input[type="text"], 
+    main .agenda input[type="tel"] {
+
+        width: 270px;
+        height: 40px;
+        margin-bottom: 10px;
+        text-indent: 10px;
+        border: 1px solid #214559;
+        border-radius: 8px;
+
+    }
+
+    /* Efeito ao clicar nas caixas de texto */
+    main .agenda input[type="text"]:focus, 
+    main .agenda input[type="tel"]:focus {
+
+        outline: none;
+
+    }
+
+    /* Botão de Enviar Agenda */
+    main .agenda form button {
+
+        width: 90%;
+        height: 60px;
+        margin-top: 20px;
+        background-color: #214559;
+        color: #90caf9;
+        font-size: 18px;
+        font-weight: 700;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+
+    }
+
+    /* Container do Catálogo */
+    main .section-catalog .catalog{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+        width: 100%;
+        margin-bottom: -10px;
+
+    }
+
+    /* Título da Seção Catálogo */
+    main .section-catalog h2{
+
+        font-family: Arial, sans-serif;
+        color: #1b2d3a;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 10px;
+
+    }
+
+    /* Cartão Individual do Item (Antes e Depois) */
+    main .div-card-item{
+
+        background-color: #ffffff;
+        border: 1px solid #e0e0e0;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    /* Ajuste das Imagens */
+    main .img-wrap img{
+
+        width: 320px;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+
+    }
+
+    /* Subtítulos (Antes / Depois) */
+    main .item h3{
+
+        text-align: center;
+        font-size: 18px;
+        color: #1b2d3a;
+        margin-bottom: 8px;
+        font-family: Arial, sans-serif;
+
+    }
+
+    /* Seção de Depoimentos */
+    main .section-depoiment {
+
+        margin: 0 auto;
+        background-color: #214559;
+        color: #90caf9;
+        width: 90%;
+        height: 425px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        border-radius: 30px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+
+    }
+
+    /* Título da Seção Depoimentos */
+    main .section-depoiment h3 {
+
+        font-family: Arial, sans-serif;
+        text-align: center;
+        font-size: 22px;
+
+    }
+
+    /* Container Interno Depoimentos */
+    main .depoiment {
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+
+    }
+
+    /* Bloco de Citação (Depoimento) */
+    main blockquote {
+
+        background-color: #1b2d3a;
+        padding: 15px;
+        border-left: 5px solid #90caf9;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        width: 100%;
+
+    }
+
+    /* Estilo do Texto Depoimento */
+    main blockquote i {
+
+        font-family: Arial, sans-serif;
+
+    }
+
+    /* Seção de Mapa */
+    main .section-map{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    /* Título do Mapa */
+    main .section-map .section-map-title{
+
+        font-family: Arial, sans-serif;
+        color: #1b2d3a;
+        margin-bottom: 30px;
+
+    }
+
+    /* iframe do Mapa */
+    main .section-map iframe{
+
+        width: 100%;
+        max-width: 340px;
+
+    }
+
+    /* Horário do Mapa */
+    main .section-map .section-map-horario{
+
+        font-family: Arial, sans-serif;
+        color: #1b2d3a;
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: 10px;
+
+    }
+
+    /* Rodapé (Footer) */
+    footer{
+
+        background-color: #213547;
+        color: #90caf9;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    /* Texto do Rodapé */
+    footer p{
+
+        margin-top: 20px;
+        font-family: Arial, sans-serif;
+        margin-bottom: 10px;
+        text-align: center;
+
+    }
+
+    /* Menu de Navegação do Rodapé */
+    footer nav{
+
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+
+    }
+
+    /* Estilo dos Links do Rodapé */
+    footer a{
+
+        color: #90caf9;
+        text-decoration: none;
+
+    }
+
+    /* Itens da Lista do Rodapé */
+    footer li{
+
+        list-style: none;
+
+    }
+
+    /* Lista de Links do Rodapé */
+    footer ul{
+
+        display: flex;
+        gap: 20px;
+
+    }
+}
+
+/* ------ Max Width 360px ------ */
+@media (max-width: 360px){
+
+    /* Cabeçalho (Header) */
+    header {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        padding: 10px;
+
+    }
+
+    /* Lista de Links do Header */
+    header nav ul {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 10px;
+
+    }
+
+    /* Título da Seção Info */
+    main .section-info h3{
+
+        font-size: 22px;
+        text-align: center;
+
+    }
+
+    /* Texto da Seção Info */
+    main .section-info p{
+
+        text-align: center;
+        font-size: 15px;
+
+    }
+
+    /* Section Principal da Agenda */
+    main .section-agenda{
+
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #e3e9f1;
+        border-radius: 10px;
+
+    }
+
+    /* Título Agenda */
+    main .agenda h3{
+
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-family: Arial, sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        color: #1b2d3a;
+        text-align: center;
+
+    }
+
+    /* Formulário Agenda */
+    main .agenda form{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    /* Textos (Labels) Agenda */
+    main form label{
+
+        width: 260px;
+        margin-bottom: 5px;
+        font-family: Arial, sans-serif;
+        font-weight: 700;
+        color: #1b2d3a;
+        text-align: left;
+
+    }
+
+    /* Caixas de Texto (Inputs) Agenda */
+    main .agenda input[type="text"], 
+    main .agenda input[type="tel"] {
+
+        width: 270px;
+        height: 40px;
+        margin-bottom: 10px;
+        text-indent: 10px;
+        border: 1px solid #214559;
+        border-radius: 8px;
+
+    }
+
+    /* Efeito ao clicar nas caixas de texto */
+    main .agenda input[type="text"]:focus, 
+    main .agenda input[type="tel"]:focus {
+
+        outline: none;
+
+    }
+
+    /* Botão de Enviar Agenda */
+    main .agenda form button {
+
+        width: 90%;
+        height: 60px;
+        margin-top: 20px;
+        background-color: #214559;
+        color: #90caf9;
+        font-size: 18px;
+        font-weight: 700;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+
+    }
+
+    /* Container do Catálogo */
+    main .section-catalog .catalog{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+        width: 100%;
+        margin-bottom: -10px;
+
+    }
+
+    /* Título da Seção Catálogo */
+    main .section-catalog h2{
+
+        font-family: Arial, sans-serif;
+        color: #1b2d3a;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 10px;
+
+    }
+
+    /* Cartão Individual do Item (Antes e Depois) */
+    main .div-card-item{
+
+        background-color: #ffffff;
+        border: 1px solid #e0e0e0;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    /* Ajuste das Imagens */
+    main .img-wrap img{
+
+        width: 320px;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+
+    }
+
+    /* Subtítulos (Antes / Depois) */
+    main .item h3{
+
+        text-align: center;
+        font-size: 18px;
+        color: #1b2d3a;
+        margin-bottom: 8px;
+        font-family: Arial, sans-serif;
+
+    }
+
+    /* Seção de Depoimentos */
+    main .section-depoiment {
+
+        margin: 0 auto;
+        background-color: #214559;
+        color: #90caf9;
+        width: 90%;
+        height: 425px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        border-radius: 30px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+
+    }
+
+    /* Título da Seção Depoimentos */
+    main .section-depoiment h3 {
+
+        font-family: Arial, sans-serif;
+        text-align: center;
+        font-size: 22px;
+
+    }
+
+    /* Parte Interna da Seçào Depoimentos */
+    main .depoiment {
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+
+    }
+
+    /* Bloco de Citaçào (Depoimento) */
+    main blockquote {
+
+        background-color: #1b2d3a;
+        padding: 15px;
+        border-left: 5px solid #90caf9;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        width: 100%;
+
+    }
+
+    /* Estilo do Texto Depoimento */
+    main blockquote i {
+
+        font-family: Arial, sans-serif;
+
+    }
+
+    /* Seção de Mapa */
+    main .section-map{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    /* Título do Mapa */
+    main .section-map .section-map-title{
+
+        font-family: Arial, sans-serif;
+        color: #1b2d3a;
+        margin-bottom: 30px;
+
+    }
+
+    /* iframe do Mapa */
+    main .section-map iframe{
+
+        width: 100%;
+        max-width: 340px;
+
+    }
+
+    /* Horário do Mapa */
+    main .section-map .section-map-horario{
+
+        font-family: Arial, sans-serif;
+        color: #1b2d3a;
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: 10px;
+
+    }
+
+    /* Rodapé (Footer) */
+    footer{
+
+        background-color: #213547;
+        color: #90caf9;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    /* Texto do Rodapé */
+    footer p{
+
+        margin-top: 20px;
+        font-family: Arial, sans-serif;
+        margin-bottom: 10px;
+        text-align: center;
+
+    }
+
+    /* Menu de Navegação do Rodapé */
+    footer nav{
+
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+
+    }
+
+    /* Estilo dos Links do Rodapé */
+    footer a{
+
+        color: #90caf9;
+        text-decoration: none;
+
+    }
+
+    /* Itens da Lista do Rodapé */
+    footer li{
+
+        list-style: none;
+
+    }
+
+    /* Lista de Links do Rodapé */
+    footer ul{
+
+        display: flex;
+        gap: 20px;
+
+    }
+}
+
+/* ------ Max Width 1024px ------ */
+@media (max-width: 1024px){
+
+    /* Section Principal da Agenda */
+    main .section-agenda{
+
+        width: 59%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #e3e9f1;
+        border-radius: 10px;
+
+    }
+
+    /* Título Agenda */
+    main .agenda h3{
+
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-family: Arial, sans-serif;
+
+    }
+
+    /* Seção de Depoimentos */
+    main .section-depoiment {
+
+        margin: 0 auto;
+        background-color: #214559;
+        color: #90caf9;
+        width: 70%;
+        height: 340px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        border-radius: 30px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+
+    }
+    /* Horário do Mapa */
+    main .section-map .section-map-horario{
+
+        font-family: Arial, sans-serif;
+        color: #1b2d3a;
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: 18px;
+
+    }
+}
+
+
+@media (max-width: 1920px){
+    main .section-agenda{
+
+        width: 30%;
+
+    }
+
+    main .section-depoiment{
+
+        width: 47%;
+
+    }
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <title>AutoFix Rápido - Oficina Confiável</title> 
+</head> 
+<body style="font-family: Arial, sans-serif; background-color: #f5f7fa; 
+color: #213547; max-width: 1100px; margin: 20px auto; line-height: 1.6;"> 
+ 
+  <!-- Cabeçalho fixo com nome da oficina e menu de navegação --> 
+  <header style="position: fixed; top: 0; left: 0; right: 0; 
+background-color: #214559; padding: 15px 20px; display: flex; 
+justify-content: space-between; align-items: center; box-shadow: 0 3px 7px 
+rgba(0,0,0,0.2); z-index: 100;"> 
+    <div style="font-weight: bold; font-size: 26px; color: #90caf9; 
+font-family: 'Segoe UI', sans-serif;"> 
+      AutoFix Rápido 
+      <!-- Logo textual, destaque na cor azul para reforçar confiança --> 
+    </div> 
+    <nav> 
+      <!-- Links do menu com espaçamento e cor para facilitar a navegação --> 
+      <a href="#home" style="color: #90caf9; margin: 0 12px; 
+text-decoration: none; font-weight: 600;">Home</a> 
+<a href="#servicos" style="color: #90caf9; margin: 0 12px; 
+text-decoration: none; font-weight: 600;">Serviços</a> 
+      <a href="#agendamento" style="color: #90caf9; margin: 0 12px; 
+text-decoration: none; font-weight: 600;">Agendamento</a> 
+      <a href="#depoimentos" style="color: #90caf9; margin: 0 12px; 
+text-decoration: none; font-weight: 600;">Depoimentos</a> 
+      <a href="#contato" style="color: #90caf9; margin: 0 12px; 
+text-decoration: none; font-weight: 600;">Contato</a> 
+    </nav> 
+  </header> 
+  <!-- Espaço para evitar que o conteúdo fique atrás do header fixo --> 
+  <div style="height: 65px;"></div> 
+ 
+  <!-- Seção Hero: mensagem forte para chamar a atenção do visitante --> 
+  <section id="home" style="background-color: #1b2d3a; color: #90caf9; 
+padding: 70px 20px 50px; text-align: center; border-radius: 8px; 
+margin-bottom: 40px;"> 
+    <h1 style="font-size: 36px; font-weight: 700; margin-bottom: 15px;"> 
+      Seu carro em boas mãos, sem enrolação 
+      <!-- Frase principal para transmitir confiança e agilidade --> 
+    </h1> 
+    <p style="font-size: 18px; max-width: 600px; margin: 0 auto;"> 
+      Agilidade, confiança e qualidade para cuidar do seu veículo sem 
+perder tempo. 
+      <!-- Expande a promessa da oficina, reforçando o valor --> 
+    </p>
+     </section> 
+ 
+  <!-- Seção de serviços oferecidos com ícones simples para facilitar a 
+identificação --> 
+  <section id="servicos" style="padding: 0 20px 40px 20px; max-width: 
+900px; margin: 0 auto;"> 
+    <h2 style="color: #214559; font-weight: 700; font-size: 28px; 
+margin-bottom: 25px; text-align: center;">Nossos Serviços</h2> 
+    <div style="display: flex; justify-content: space-around; flex-wrap: 
+wrap; gap: 30px;"> 
+      <div style="flex: 1 1 130px; background: #e3e9f1; border-radius: 
+12px; box-shadow: 0 3px 6px rgba(33, 69, 89, 0.2); padding: 20px; 
+text-align: center;"> 
+        <div style="font-size: 40px; color: #214559; margin-bottom: 
+12px;">
+🔧
+</div> 
+        <h3 style="font-weight: 700; margin-bottom: 10px;">Troca de 
+óleo</h3> 
+        <p style="font-size: 14px; color: #213547;">Rápida e com produtos 
+de qualidade.</p> 
+      </div> 
+      <div style="flex: 1 1 130px; background: #e3e9f1; border-radius: 
+12px; box-shadow: 0 3px 6px rgba(33, 69, 89, 0.2); padding: 20px; 
+text-align: center;"> 
+        <div style="font-size: 40px; color: #214559; margin-bottom: 
+12px;">
+🔩
+</div> 
+        <h3 style="font-weight: 700; margin-bottom: 10px;">Revisão 
+geral</h3> 
+        <p style="font-size: 14px; color: #213547;">Checagem completa do 
+seu veículo.</p> 
+</div> 
+      <div style="flex: 1 1 130px; background: #e3e9f1; border-radius: 
+12px; box-shadow: 0 3px 6px rgba(33, 69, 89, 0.2); padding: 20px; 
+text-align: center;"> 
+        <div style="font-size: 40px; color: #214559; margin-bottom: 
+12px;">
+🛑
+</div> 
+        <h3 style="font-weight: 700; margin-bottom: 10px;">Freios</h3> 
+        <p style="font-size: 14px; color: #213547;">Segurança em primeiro 
+lugar.</p> 
+      </div> 
+    </div> 
+  </section> 
+ 
+  <!-- Formulário simples para agendamento rápido, foco na usabilidade --> 
+  <section id="agendamento" style="background-color: #e3e9f1; padding: 30px 
+20px; max-width: 500px; margin: 0 auto 40px auto; border-radius: 12px; 
+box-shadow: 0 3px 8px rgba(33,69,89,0.2);"> 
+    <h2 style="text-align: center; color: #214559; margin-bottom: 
+20px;">Agende seu serviço rápido</h2> 
+    <form> 
+      <label for="nome" style="display: block; margin-bottom: 8px; 
+font-weight: 600;">Nome:</label> 
+      <input type="text" id="nome" name="nome" required placeholder="Seu 
+nome" style="width: 100%; padding: 10px; border-radius: 8px; border: 1px 
+solid #214559; margin-bottom: 15px;" /> 
+      <label for="modelo" style="display: block; margin-bottom: 8px; 
+font-weight: 600;">Modelo do carro:</label> 
+ <input type="text" id="modelo" name="modelo" required 
+placeholder="Ex: Fiat Uno" style="width: 100%; padding: 10px; 
+border-radius: 8px; border: 1px solid #214559; margin-bottom: 15px;" /> 
+ 
+      <label for="telefone" style="display: block; margin-bottom: 8px; 
+font-weight: 600;">Telefone:</label> 
+      <input type="tel" id="telefone" name="telefone" required 
+placeholder="(xx) xxxx-xxxx" style="width: 100%; padding: 10px; 
+border-radius: 8px; border: 1px solid #214559; margin-bottom: 20px;" /> 
+      <button type="submit" style="width: 100%; background-color: #214559; 
+color: #90caf9; font-weight: 700; padding: 12px 0; border-radius: 25px; 
+cursor: pointer; font-size: 18px;">Agendar</button> 
+    </form> 
+  </section> 
+  <!-- Galeria antes e depois para mostrar serviço com imagens reais --> 
+  <section id="galeria" style="padding: 0 20px 40px 20px; max-width: 900px; 
+margin: 0 auto;"> 
+    <h2 style="text-align: center; color: #214559; font-weight: 700; 
+margin-bottom: 25px;">Antes e Depois</h2> 
+    <div style="display: flex; justify-content: space-between; gap: 15px; 
+flex-wrap: wrap;"> 
+      <!-- Cada div representa um par de imagens (antes e depois) --> 
+      <div style="flex: 1 1 280px; border-radius: 12px; overflow: hidden; 
+box-shadow: 0 2px 6px rgba(33, 69, 89, 0.363);"> 
+        <h1 style="text-align: center;">Antes</h1> 
+        <img 
+src="https://static.stg.kbb.com.br/pkw/p/fiat/uno/1999/3ha.jpg" alt="Carro 
+antes do serviço 1" style="width: 85%; display: block; border-radius: 8px; 
+margin:auto;margin-top: 20px; border: 2px solid rgba(0, 0, 0, 0.658)" /> 
+<!-- Aqui adicionei uma Div para conseguirmos dar uma separada 
+entre uma imagem e outra, faça o teste com e sem ela para notar a diferença --> 
+        <div style="height: 50px;"></div> 
+        <H1 style="text-align: center;">Depois</H1> 
+        <img 
+src="https://carsoul.com.br/wp-content/uploads/2024/02/image-13.png" 
+alt="Carro depois do serviço 1" style="width: 85%; display: block; 
+border-radius: 8px; margin:auto; margin-bottom:20px; border: 2px solid 
+rgba(0, 0, 0, 0.658)" /> 
+      </div> 
+      <div style="flex: 1 1 280px; border-radius: 12px; overflow: hidden; 
+box-shadow: 0 2px 6px rgba(33,69,89,0.15);"> 
+        <h1 style="text-align: center;">Antes</h1> 
+        <img 
+src="https://www.prathauto.com.br/wp-content/uploads/2021/09/IMG_6072-Edita
+r-1536x1097.jpg" alt="Carro antes do serviço 2" style="width: 85%; display: 
+block; border-radius: 8px; margin:auto;margin-top: 20px; max-width: 320px; 
+border: 2px solid rgba(0, 0, 0, 0.658)" /> 
+        <!-- Aqui adicionei uma Div para conseguirmos dar uma separada 
+entre uma imagem e outra, faça o teste com e sem ela para notar a diferença --> 
+        <div style="height: 58px;"></div> 
+        <H1 style="text-align: center;">Depois</H1> 
+        <img 
+src="https://carrosbemmontados.com.br/wp-content/uploads/2024/06/ford-musta
+ng-gtd-carbon-series-3-2025-1.jpg" alt="Carro depois do serviço 2" 
+style="width: 85%; display: block; border-radius: 8px; 
+margin:auto;margin-bottom: 20px; border: 2px solid rgba(0, 0, 0, 0.658)" /> 
+      </div>
+       </div> 
+  </section> 
+ 
+  <!-- Depoimentos de clientes, mostrando confiança no serviço --> 
+  <section id="depoimentos" style="background-color: #214559; color: 
+#90caf9; padding: 30px 20px; border-radius: 12px; max-width: 800px; margin: 
+0 auto 40px auto;"> 
+    <h2 style="text-align: center; margin-bottom: 25px;">O que dizem nossos 
+clientes</h2> 
+    <blockquote style="background-color: #1b2d3a; padding: 15px 20px; 
+border-left: 5px solid #90caf9; border-radius: 8px; font-style: italic; 
+margin-bottom: 15px;"> 
+      “Super rápidos e confiáveis! Meu carro nunca esteve tão bem.” — João 
+P. 
+    </blockquote> 
+    <blockquote style="background-color: #1b2d3a; padding: 15px 20px; 
+border-left: 5px solid #90caf9; border-radius: 8px; font-style: italic; 
+margin-bottom: 15px;"> 
+      “Agendamento prático e serviço nota 10. Recomendo!” — Luiza S. 
+    </blockquote> 
+    <blockquote style="background-color: #1b2d3a; padding: 15px 20px; 
+border-left: 5px solid #90caf9; border-radius: 8px; font-style: italic;"> 
+      “Equipe profissional e atendimento impecável.” — Marcos T. 
+    </blockquote> 
+  </section> 
+ 
+  <!-- Mapa com localização da oficina e horário de funcionamento --> 
+    <section id="contato" style="max-width: 900px; margin: 0 auto 40px auto; 
+padding: 0 20px;"> 
+    <h2 style="color: #214559; font-weight: 700; margin-bottom: 25px; 
+text-align: center;">Nosso endereço e horário</h2> 
+    <iframe 
+      
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.80769341230
+1!2d-46.6481542850187!3d-23.54407668468415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768
+!4f13.1!3m3!1m2!1s0x94ce59b4e6d7dff1%3A0x2a4207a1a7b25f6a!2sAv.%20Paulista%
+2C%201571%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-200!
+5e0!3m2!1spt-BR!2sbr!4v1697497777015!5m2!1spt-BR!2sbr" 
+      width="100%" height="300" style="border: 0; border-radius: 12px;" 
+allowfullscreen="" loading="lazy" 
+referrerpolicy="no-referrer-when-downgrade" 
+      title="Mapa AutoFix Rápido"></iframe> 
+    <p style="text-align: center; margin-top: 15px; font-weight: 600; 
+color: #214559;"> 
+      Segunda a sexta: 8h às 18h | Sábado: 8h às 12h 
+    </p> 
+  </section> 
+ 
+  <!-- Rodapé com contatos importantes para facilitar o alcance do cliente --> 
+  <footer style="background-color: #213547; color: #90caf9; text-align: 
+center; padding: 20px; font-size: 14px;"> 
+    <p>Telefone: (11) 3333-4444 | WhatsApp: (11) 99999-8888</p> 
+    <p> 
+      <a href="#" style="color: #90caf9; margin: 0 8px; text-decoration: 
+none;">Facebook</a> |
+<a href="#" style="color: #90caf9; margin: 0 8px; text-decoration: 
+none;">Instagram</a> | 
+<a href="#" style="color: #90caf9; margin: 0 8px; text-decoration: 
+none;">Twitter</a> 
+</p> 
+</footer> 
+</body> 
+</html>
